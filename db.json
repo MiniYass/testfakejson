@@ -1,4 +1,4 @@
-{
+n{
   "campagne": [
     { "id": 1, "name": "Course", "dated":"01-02-2020" , "datef":"04-04-2020", "heured":"08:00" , "heuref":"16:30" , "dure":"8h30" , "client" : "Solange" },
     { "id": 2, "name": "Massage", "dated":"21-05-2020" , "datef":"29-12-2020", "heured":"12:00" , "heuref":"14:30" , "dure":"2h30" , "client" : "François" },
@@ -9,6 +9,6 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "testingtidda"
   }
 }
