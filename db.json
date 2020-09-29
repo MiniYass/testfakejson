@@ -1,14 +1,36 @@
-{
-  "camps": [
-    { "id": 1, "name": "Course", "dated":"01-02-2020" , "datef":"04-04-2020", "heured":"08:00" , "heuref":"16:30" , "dure":"8h30" , "client" : "Solange" },
-    { "id": 2, "name": "Massage", "dated":"21-05-2020" , "datef":"29-12-2020", "heured":"12:00" , "heuref":"14:30" , "dure":"2h30" , "client" : "François" },
-    { "id": 3, "name": "Examen", "dated":"14-01-2020" , "datef":"16-08-2020", "heured":"09:00" , "heuref":"17:00" , "dure":"8h" , "client" : "Angelique,Corentin,Mathieu" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "testingtidda"
-  }
+{ 
+    "tabCalendars":[
+      {
+          "nId": 1,
+          "sCalendarName": "Course",
+          "sStartDate":"01-02-2020" ,
+          "sEndDate":"04-04-2020",
+          "sStartTime":"08:00" ,
+          "sEndTime":"16:30" ,
+          "sDuration":"480 min" ,
+          "tabUserTags" : ["Solange"] 
+          
+          },{ 
+          "nId": 2,
+          "sCalendarName": "Massage",
+          "sStartDate":"21-05-2020" ,
+          "sEndDate":"29-12-2020",
+          "sStartTime":"12:00" ,
+          "sEndTime":"14:30" ,
+          "sDuration":"150 min" ,
+          "tabUserTags" : ["François"]
+        },
+ 
+        {
+        "nId": 3,
+        "sCalendarName": "Examen",
+        "sStartDate":"14-01-2020" ,
+        "sEndDate":"16-08-2020", 
+        "sStartTime":"09:00" , 
+        "sEndTime":"17:00" ,
+        "sDuration":"510 min" , 
+        "tabUserTags" :[ "Angelique","Corentin","Mathieu"]
+         }
+        ]
+
 }
